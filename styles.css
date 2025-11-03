@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: #F0F0F0; 
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    background: #1B244A;
+    height: 50vh;
+    
+    
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family:'Cursed Timer ULiL';
+    src: url(cursedtimer.ttf);
+}
+
+.display-card{
+    text-align: center;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    border-radius: 5px;                                                
+}
+
+.point-btns{
+    margin-top: 20px;
+}    
+
+button{
+     width: 45px;
+     height: 45px;
+     margin: 0px 3px;
+     border: 3px solid #9AABD8;
+     border-radius: 5px;
+     background: none;
+     color: #9AABD8;
+     font-family: 'Cursed Timer ULiL';
+     font-size: 18px;
+    
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background: #9AABD8;
+    color: #080001;
+}
